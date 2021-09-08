@@ -20,4 +20,8 @@ public class RoleService {
     public void sayHello222(String msg) {
         System.out.println("test222:".concat(msg));
     }
+
+    public void hello(String msg) {
+        System.out.println("hello:".concat(msg));
+    }
 }
