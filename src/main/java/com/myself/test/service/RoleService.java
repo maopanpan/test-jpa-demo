@@ -12,4 +12,8 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class RoleService {
+
+    public void sayHello(String message) {
+        System.out.println("测试:" + message);
+    }
 }
