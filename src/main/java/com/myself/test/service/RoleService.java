@@ -12,4 +12,8 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class RoleService {
+
+    public void sayHello2(String msg) {
+        System.out.println("test2:".concat(msg));
+    }
 }
