@@ -59,4 +59,8 @@ public class UserService {
         user.setCreateBy(1);
         userRepository.save(user);
     }
+
+    public void sayHello() {
+        System.out.println("测试点二");
+    }
 }
