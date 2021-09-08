@@ -16,4 +16,8 @@ public class RoleService {
     public void sayHello(String msg) {
         System.out.println("test:".concat(msg));
     }
+
+    public void sayHello111(String msg) {
+        System.out.println("test111:".concat(msg));
+    }
 }
