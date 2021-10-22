@@ -69,4 +69,10 @@ public class OrderService {
         userService.methodD();
     }
 
+    @Transactional(propagation = Propagation.REQUIRED)
+    public void methodC2(SysOrder order) {
+        orderRepository.save(order);
+        userService.methodD();
+    }
+
 }
