@@ -65,10 +65,10 @@ public class UserService {
     }
 
     public void sayHello1() {
-        System.out.println("测试点二");
+        System.out.println("测试点二11");
     }
 
     public void sayHello2() {
-        System.out.println("测试点二");
+        System.out.println("测试点二22");
     }
 }
