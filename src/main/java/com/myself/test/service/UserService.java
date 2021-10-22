@@ -71,9 +71,4 @@ public class UserService {
     public void sayHello2() {
         System.out.println("测试点二");
     }
-
-
-    public void sayHello3() {
-        System.out.println("测试点二3333");
-    }
 }
